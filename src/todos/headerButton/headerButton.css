@@ -1,0 +1,20 @@
+.header-button::before {
+    height: 30px;
+    width: 30px;
+    content: '❯';
+    font-size: 22px;
+    color: #aaaaaad5;
+}
+.header-button {
+    color: white;
+    cursor: pointer;
+    margin-top: 17px;
+    margin-left: 30px;
+    appearance: none;
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+.header-button:checked::before{
+    color: #554f4f;
+}
