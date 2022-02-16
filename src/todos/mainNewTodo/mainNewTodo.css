@@ -1,0 +1,72 @@
+.main-new-todo-wrapper {
+  width: 100%;
+  min-height: 60px;
+  box-shadow: 0px 3px 5px -5px rgba(34, 60, 80, 0.6) inset;
+  background-color: white;
+  display: flex;
+}
+.main-new-todo-input {
+  /* display: none; */
+  width: 490px;
+  min-height: 100%;
+  outline: none;
+  border: 1px solid #999;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #4d4d4d;
+  font-size: 24px;
+  font-weight: 300;
+}
+.main-new-todo-select-wrapper {
+  /* display: none; */
+  background-image: url(data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2240%22%20height%3D%2240%22%20viewBox%3D%22-10%20-18%20100%20135%22%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2250%22%20fill%3D%22none%22%20stroke%3D%22gray%22%20stroke-width%3D%223%22/%3E%3C/svg%3E);
+  width: 58px;
+  height: 60px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-position: 3px 10px;
+  background-repeat: no-repeat;
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+.main-new-todo-select-wrapper:checked {
+  background-image: url(data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2240%22%20height%3D%2240%22%20viewBox%3D%22-10%20-18%20100%20135%22%3E%3Ccircle%20cx%3D%2250%22%20cy%3D%2250%22%20r%3D%2250%22%20fill%3D%22none%22%20stroke%3D%22%23bddad5%22%20stroke-width%3D%223%22/%3E%3Cpath%20fill%3D%22%235dc2af%22%20d%3D%22M72%2025L42%2071%2027%2056l-4%204%2020%2020%2034-52z%22/%3E%3C/svg%3E);
+}
+
+.main-new-todo-title-wrapper {
+  justify-content: space-between;
+  width: 100%;
+  max-width: 490px;
+  word-break: break-all; 
+}
+.main-new-todo-destroy {
+  width: 50px;
+  height: max-content;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  color: #cc9a9a;
+  font-weight: 500;
+  transition: color 0.2s ease-out;
+  padding-top: 15px;
+}
+.main-new-todo-destroy:hover {
+  color: #a74e4e;
+}
+.main-new-todo-destroy::after {
+  margin-left: 15px;
+  content: "×";
+}
+.main-new-todo-title {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #4d4d4d;
+  font-size: 24px;
+  height: max-content;
+  margin: 0;
+  margin-left: 10px;
+  margin-top: 15px;
+  font-weight: 300;
+}
+.main-new-todo-title-completed {
+  text-decoration: line-through;
+  color: #d9d9d9;
+}

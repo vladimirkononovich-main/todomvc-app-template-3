@@ -1,0 +1,66 @@
+footer {
+  display: flex;
+  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #777;
+  padding: 14px 15px 9px;
+  height: 20px;
+  border-top: 1px solid #e6e6e6;
+  content: "";
+  position: relative;
+  background-color: #ffffff;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 20%), 0 8px 0 -3px #f6f6f6,
+    0 9px 1px -3px rgb(0 0 0 / 20%), 0 16px 0 -6px #f6f6f6,
+    0 17px 2px -6px rgb(0 0 0 / 20%);
+}
+footer > button {
+  cursor: pointer;
+  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: inherit;
+  background-color: inherit;
+  border: none;
+  outline: none;
+}
+footer > a {
+  text-decoration: none;
+  color: #777;
+  display: flex;
+  transition: all 0.7s;
+}
+footer a:nth-child(2) {
+  margin-left: calc(100% - 442px);
+  /* margin-right: 12px; */
+  width: 30px;
+  padding: 1px 1px 1px 11px;
+}
+footer a:nth-child(3) {
+  /* margin-right: 12px; */
+  width: 54px;
+  padding: 1px 1px 1px 15px;
+}
+footer a:nth-child(4) {
+  width: 80px;
+  padding: 1px 1px 1px 15px;
+}
+footer button:nth-child(5) {
+  margin-left: calc(100% - 475px);
+}
+footer button:nth-child(5):hover {
+  text-decoration: underline;
+}
+.items-left {
+  min-width: 67.72px;
+  max-width: 67.72px;
+}
+
+footer > a:hover {
+  box-shadow: 0px 0px 0px 1px rgba(255, 0, 0, 0.411),0px 0px 0px 1px rgba(218, 11, 11, 0.349) inset;
+  transition: all 0.1s;
+}
+.filter-selected {
+  box-shadow: 0px 0px 0px 1px rgba(218, 11, 11, 0.507);
+
+}
